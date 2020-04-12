@@ -3,7 +3,8 @@
     "experimentalDecorators": true,
     "target": "ES6",
     "types": [
-      "@mr-hope/vuepress-theme-types"
+      "@mr-hope/vuepress-theme-types",
+      "vuepress-types"
     ]
   },
   "include": [
