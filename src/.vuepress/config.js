@@ -1,11 +1,3 @@
-/*
- * @Author: Mr.Hope
- * @Date: 2019-07-05 00:14:26
- * @LastEditors: Mr.Hope
- * @LastEditTime: 2020-03-22 22:23:48
- * @Description: Vuepress配置
- */
-
 const resolve = require("vuepress-theme-hope/resolve");
 
 module.exports = resolve({
@@ -116,6 +108,16 @@ module.exports = resolve({
         "/en/": ["1234", "5678"],
         "/test/detail/": "1234",
         "/test/footer/default": "5678"
+      }
+    },
+
+    blog: {
+      intro: '/test.html',
+      sidebarDisplay: 'mobile',
+      links: {
+        Zhihu: 'https://zhihu.com',
+        Baidu: 'https://baidu.com',
+        Github: 'https://github.com'
       }
     },
 

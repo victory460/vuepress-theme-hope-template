@@ -6,15 +6,15 @@ You can begin your vuepress-theme-hope trip by creating a repo from this tempalt
 
 - Install deps:
 
-    Run `yarn install`
+  Run `yarn install`
 
 - Dev Env:
 
-    Run `yarn run serve`
+  Run `yarn run serve`
 
 - Build production files:
 
-    Run `yarn run build`
+  Run `yarn run build`
 
 ---
 
@@ -24,12 +24,12 @@ vuepress-theme-hope 的模板。
 
 - 安装依赖:
 
-    Run `yarn install`
+  Run `yarn install`
 
 - 测试环境:
 
-    Run `yarn run serve`
+  Run `yarn run serve`
 
 - 生产环境(构建文件):
 
-    Run `yarn run build`
+  Run `yarn run build`

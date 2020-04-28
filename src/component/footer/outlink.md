@@ -1,7 +1,7 @@
 ---
 category: component
 tag: footer
-footer: 
+footer:
   text: MIT Licensed | Copyright © 2019-present Mr.Hope
   link: https://mrhope.site
 ---
