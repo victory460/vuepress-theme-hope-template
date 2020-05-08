@@ -3,6 +3,8 @@
     "target": "ES6",
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
     "types": ["@mr-hope/vuepress-theme-types", "vuepress-types"]
   },
   "include": ["src/.vuepress/enhanceApp.ts"]
