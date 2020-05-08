@@ -1,7 +1,7 @@
 ---
-category: component
 author: Ms.Hope
-time: 2020/1/1
+time: 2020-01-01
+category: component
 ---
 
 # 页面信息

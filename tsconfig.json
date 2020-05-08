@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES6",
+    "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "types": ["@mr-hope/vuepress-theme-types", "vuepress-types"]
   },

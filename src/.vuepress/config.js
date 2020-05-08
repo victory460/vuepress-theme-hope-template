@@ -5,31 +5,26 @@ module.exports = resolve({
   description: "vuepress-theme-hope 的 demo",
 
   headOption: {
-    icon: "/favicon.ico"
+    icon: "/favicon.ico",
+    pwa: {
+      manifest: "/manifest.json",
+      themeColor: "#46bd87",
+      appleStatusBarColor: "black",
+      appleIcon: "/img/icon/appleIcon152.png",
+      msTileImage: "/img/icon/msIcon144.png",
+      msTileColor: "#ffffff",
+    },
   },
   head: [
     // pwa相关
-    ["link", { rel: "manifest", href: "/manifest.json" }],
-    ["meta", { name: "theme-color", content: "#46bd87" }],
-    ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
-    [
-      "meta",
-      { name: "apple-mobile-web-app-status-bar-style", content: "black" }
-    ],
-    ["link", { rel: "apple-touch-icon", href: "/img/icon/appleIcon152.png" }],
     [
       "link",
       {
         rel: "mask-icon",
         href: "/icons/safari-pinned-tab.svg",
-        color: "#46bd87"
-      }
+        color: "#46bd87",
+      },
     ],
-    [
-      "meta",
-      { name: "msapplication-TileImage", content: "/img/icon/msIcon144.png" }
-    ],
-    ["meta", { name: "msapplication-TileColor", content: "#ffffff" }]
   ],
 
   base: "/vuepress-theme-hope-template/",
@@ -39,14 +34,14 @@ module.exports = resolve({
   locales: {
     "/en/": {
       title: "Theme Demo",
-      description: "A demo for vuepress-theme-hope"
-    }
+      description: "A demo for vuepress-theme-hope",
+    },
   },
 
   extraWatchFiles: [
     ".vuepress/config/navBar.js",
     ".vuepress/config/sideBar.js",
-    ".vuepress/config/theme.js"
+    ".vuepress/config/theme.js",
   ],
 
   themeConfig: {
@@ -57,13 +52,13 @@ module.exports = resolve({
       {
         text: "组件",
         icon: "extension",
-        link: "/component/"
+        link: "/component/",
       },
       {
         text: "主题文档",
         link: "https://vuepress-theme.mrhope.site",
-        icon: "note"
-      }
+        icon: "note",
+      },
     ],
     sidebar: {
       "/": [
@@ -77,48 +72,42 @@ module.exports = resolve({
           children: [
             "",
             "disable",
-            "pageInfo",
-            {
-              title: "页脚测试",
-              icon: "extension",
-              prefix: "footer/",
-              children: ["", "text", "default", "link", "outlink", "diy"]
-            }
-          ]
-        }
-      ]
+            "pageInfo"
+          ],
+        },
+      ],
     },
 
     author: "Mr.Hope",
     footer: {
-      text: "默认页脚"
+      content: "默认页脚",
     },
 
     markdown: {
-      enableAll: true
+      enableAll: true,
     },
     comment: {
       type: "valine",
       appId: "msnseO76haIVIGvfJ10BKnpv-gzGzoHsz",
-      appKey: "9QMulKhu7EDp1va0TYXR2PrI"
+      appKey: "9QMulKhu7EDp1va0TYXR2PrI",
     },
     encrypt: {
       global: "01311031",
       config: {
         "/en/": ["1234", "5678"],
         "/test/detail/": "1234",
-        "/test/footer/default": "5678"
-      }
+        "/test/footer/default": "5678",
+      },
     },
 
     blog: {
-      intro: '/test.html',
-      sidebarDisplay: 'mobile',
+      intro: "/test.html",
+      sidebarDisplay: "mobile",
       links: {
-        Zhihu: 'https://zhihu.com',
-        Baidu: 'https://baidu.com',
-        Github: 'https://github.com'
-      }
+        Zhihu: "https://zhihu.com",
+        Baidu: "https://baidu.com",
+        Github: "https://github.com",
+      },
     },
 
     locales: {
@@ -128,14 +117,14 @@ module.exports = resolve({
           {
             text: "Docs",
             link: "https://vuepress-theme.mrhope.site/en/",
-            icon: "note"
-          }
+            icon: "note",
+          },
         ],
-        sidebar: [""]
-      }
+        sidebar: [""],
+      },
     },
 
     repo: "https://github.com/mister-hope/vuepress-theme-hope",
-    repoLabel: "Github"
-  }
+    repoLabel: "Github",
+  },
 });

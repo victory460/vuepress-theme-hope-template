@@ -15,7 +15,3 @@ category: component
 ## 禁用演示
 
 - [点击前往](disable.md)
-
-## 页脚演示
-
-- [点击前往](footer/readme.md)
