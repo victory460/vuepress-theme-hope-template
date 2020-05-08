@@ -1,5 +1,5 @@
 ---
-blogpage: true
+blog: true
 home: true
 title: Mr.Hope
 heroImage: /logo.svg
