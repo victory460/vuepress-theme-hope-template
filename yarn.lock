@@ -896,6 +896,25 @@
     vssue "^1.4.4"
     vuepress-plugin-typescript "^0.2.0"
 
+"@mr-hope/vuepress-plugin-comment@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-comment/-/vuepress-plugin-comment-0.3.0.tgz#30f31df580290dfa6f313934102d3f8d0884c33f"
+  integrity sha512-MwhBk5YjqRyB9FFZht6DN3xkyEmobbHs7QSEIVwf9MklVLJURSp/W60TNiRp77p1E/wAnRRFUU9skoUPgHX6cQ==
+  dependencies:
+    "@mr-hope/vuepress-plugin-reading-time" "^0.3.0"
+    "@mr-hope/vuepress-shared-utils" "^0.3.0"
+    "@vssue/api-bitbucket-v2" "^1.4.0"
+    "@vssue/api-gitea-v1" "^1.4.4"
+    "@vssue/api-gitee-v5" "^1.4.4"
+    "@vssue/api-github-v3" "^1.4.4"
+    "@vssue/api-github-v4" "^1.4.0"
+    "@vssue/api-gitlab-v4" "^1.4.0"
+    "@vssue/vuepress-plugin-vssue" "^1.4.4"
+    leancloud-storage "^4.5.3"
+    valine "^1.4.14"
+    vssue "^1.4.4"
+    vuepress-plugin-typescript "^0.2.0"
+
 "@mr-hope/vuepress-plugin-components@^0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-components/-/vuepress-plugin-components-0.2.0.tgz#30b088f6abd9971d071d1de76c0f8d16f45b3988"
@@ -906,6 +925,15 @@
     lodash.debounce "^4.0.8"
     screenfull "5.0.2"
     vuepress-plugin-typescript "^0.2.0"
+
+"@mr-hope/vuepress-plugin-last-update@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-last-update/-/vuepress-plugin-last-update-0.3.0.tgz#026398d2f844fa0b86667bd3a7ab46c2b9c56920"
+  integrity sha512-rOyMTF+e9giwZQJRKDAABitjJ1bPFQp9UvP3oeRUouVLQ+ZijOO4bJ+sJItNFowFHkvWk2FSF03re3uTXi7kjg==
+  dependencies:
+    "@types/cross-spawn" "^6.0.1"
+    cross-spawn "^7.0.2"
+    moment "^2.25.3"
 
 "@mr-hope/vuepress-plugin-pwa@^0.2.0":
   version "0.2.0"
@@ -919,12 +947,46 @@
     vuepress-plugin-typescript "^0.2.0"
     workbox-build "^5.1.3"
 
+"@mr-hope/vuepress-plugin-pwa@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-pwa/-/vuepress-plugin-pwa-0.3.0.tgz#5b58b1cf2f6acdf555d1f9510cb3d3a8628c8ec6"
+  integrity sha512-xgurMIjIxzVRQd9NcqCPtlrAkZ5robLUvh0cIIGBQ9vFPnGOqVCQKZAEQK8ABajVbn+d3sfOwD8qMq1R8ak2Lw==
+  dependencies:
+    "@mr-hope/vuepress-shared-utils" "^0.3.0"
+    "@types/fs-extra" "^8.1.0"
+    chalk "^4.0.0"
+    register-service-worker "^1.7.1"
+    vuepress-plugin-typescript "^0.2.0"
+    workbox-build "^5.1.3"
+
+"@mr-hope/vuepress-plugin-reading-time@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-plugin-reading-time/-/vuepress-plugin-reading-time-0.3.0.tgz#9854ffda93bd738e566500a4ca097e9ab0c7b6a1"
+  integrity sha512-Cjezu5ov5bBreyjmDL3B5lF72dRG0wAe4Rl5p+9XzbJ/ntLiOV8NKZSnPmXcTxUAE7oWYQ3v99CnVCggTRwMcQ==
+
 "@mr-hope/vuepress-shared-utils@^0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-shared-utils/-/vuepress-shared-utils-0.2.0.tgz#1e5353fbdf3b3ced3550a741498e3f488e7e180c"
   integrity sha512-FU8+Pp0UglJLSicPmGo+TRYDK/flCJ/oLdL9MYzgtdWH3ZlW0mAWAfHj86nPYcu2dnsFT9qopJShYxvQN84Raw==
 
-"@mr-hope/vuepress-theme-types@0.2.0", "@mr-hope/vuepress-theme-types@^0.2.0":
+"@mr-hope/vuepress-shared-utils@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-shared-utils/-/vuepress-shared-utils-0.3.0.tgz#f6a335ba09fe99ff1d32fd3feec993b4264dd2f4"
+  integrity sha512-FxARq9ohU7tgJVqJXlZmjAVQY+NcDlOE8/u7LBemAgzosyyD7iSoB5pzxT4nEbRIn73lFJOrA6twKUsvfT5cQQ==
+
+"@mr-hope/vuepress-theme-types@0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-theme-types/-/vuepress-theme-types-0.3.0.tgz#f07523e8ab83a8fef6369f6b00bd751092a59da7"
+  integrity sha512-c4eRVrVXz1/sczHgUbpBk/0TAtqnVpXJ6aIGxA6dH10oMQ28j6YX6a6UuckXioz2HLtf6HPNyHL3xWo3UMwilA==
+  dependencies:
+    "@mr-hope/vuepress-plugin-comment" "^0.3.0"
+    "@mr-hope/vuepress-plugin-last-update" "^0.3.0"
+    "@mr-hope/vuepress-plugin-pwa" "^0.3.0"
+    "@mr-hope/vuepress-plugin-reading-time" "^0.3.0"
+    vuepress-plugin-md-enhance "^0.3.0"
+    vuepress-types "0.9.2"
+
+"@mr-hope/vuepress-theme-types@^0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@mr-hope/vuepress-theme-types/-/vuepress-theme-types-0.2.0.tgz#15cb4df79848b9aa6bd77fa95b6b516a4e6a2e39"
   integrity sha512-MzFKHnCk8ousWuRYaRxo4OPGyEwMdqcmh8XvEPbe+dxe6CJxyYe25fE96Ve3WTokJ1iExEWLo3cI0fetGq99oQ==
@@ -1041,6 +1103,13 @@
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@types/cookiejar/-/cookiejar-2.1.1.tgz#90b68446364baf9efd8e8349bb36bd3852b75b80"
   integrity sha512-aRnpPa7ysx3aNW60hTiCtLHlQaIFsXFCgQlpakNgDNVFzbtusSY8PwjAQgRWfSk0ekNoBjO51eQRB6upA9uuyw==
+
+"@types/cross-spawn@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@types/cross-spawn/-/cross-spawn-6.0.1.tgz#60fa0c87046347c17d9735e5289e72b804ca9b63"
+  integrity sha512-MtN1pDYdI6D6QFDzy39Q+6c9rl2o/xN7aWGe6oZuzqq5N6+YuwFsWiEAv3dNzvzN9YzU+itpN8lBzFpphQKLAw==
+  dependencies:
+    "@types/node" "*"
 
 "@types/estree@*":
   version "0.0.44"
@@ -2539,6 +2608,14 @@ chalk@^3.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
+chalk@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.0.0.tgz#6e98081ed2d17faab615eb52ac66ec1fe6209e72"
+  integrity sha512-N9oWFcegS0sFr9oh1oz2d7Npos6vNoWW9HvtCg5N1KRFpUhaAhvTv5Y58g880fZaEYSNm3qDz8SU1UrGvp+n7A==
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
+
 charenc@~0.0.1:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/charenc/-/charenc-0.0.2.tgz#c0a1d2f3a7092e03774bfa83f14c0fc5790a8667"
@@ -2970,6 +3047,15 @@ cross-spawn@^6.0.0, cross-spawn@^6.0.5:
     semver "^5.5.0"
     shebang-command "^1.2.0"
     which "^1.2.9"
+
+cross-spawn@^7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.2.tgz#d0d7dcfa74e89115c7619f4f721a94e1fdb716d6"
+  integrity sha512-PD6G8QG3S4FK/XCGFbEQrDqO2AnMMsy0meR7lerlIOHAAbkuavGU/pOqprrlvfTNjvowivTeBsjebAL0NSoMxw==
+  dependencies:
+    path-key "^3.1.0"
+    shebang-command "^2.0.0"
+    which "^2.0.1"
 
 crypt@~0.0.1:
   version "0.0.2"
@@ -6386,6 +6472,11 @@ path-key@^2.0.0, path-key@^2.0.1:
   resolved "https://registry.yarnpkg.com/path-key/-/path-key-2.0.1.tgz#411cadb574c5a140d3a4b1910d40d80cc9f40b40"
   integrity sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
 
+path-key@^3.1.0:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/path-key/-/path-key-3.1.1.tgz#581f6ade658cbba65a0d3380de7753295054f375"
+  integrity sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==
+
 path-parse@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
@@ -7572,10 +7663,22 @@ shebang-command@^1.2.0:
   dependencies:
     shebang-regex "^1.0.0"
 
+shebang-command@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/shebang-command/-/shebang-command-2.0.0.tgz#ccd0af4f8835fbdc265b82461aaf0c36663f34ea"
+  integrity sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==
+  dependencies:
+    shebang-regex "^3.0.0"
+
 shebang-regex@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-1.0.0.tgz#da42f49740c0b42db2ca9728571cb190c98efea3"
   integrity sha1-2kL0l0DAtC2yypcoVxyxkMmO/qM=
+
+shebang-regex@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
+  integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.3"
@@ -8829,6 +8932,18 @@ vuepress-plugin-md-enhance@^0.2.0:
     katex "^0.11.1"
     vuepress-plugin-container "^2.1.3"
 
+vuepress-plugin-md-enhance@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-md-enhance/-/vuepress-plugin-md-enhance-0.3.0.tgz#99c3be2c7c9eb07d8386553c1b715b9e799411c5"
+  integrity sha512-3gTDFkWSXHjM0FC639JK4nGx9XxBxbkQX8xrLq6iLC9j2yiDvmg0iVKwNKExxQa6MB99T/6hMFoz9AByPpix4A==
+  dependencies:
+    "@mr-hope/vuepress-shared-utils" "^0.3.0"
+    "@types/hash-sum" "^1.0.0"
+    flowchart.js "^1.13.0"
+    katex "^0.11.1"
+    vuepress-plugin-container "^2.1.3"
+    vuepress-plugin-typescript "^0.2.0"
+
 vuepress-plugin-named-chunks@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-named-chunks/-/vuepress-plugin-named-chunks-1.1.2.tgz#b44d7f6bb43a8c68939b485d56cda0860afc129c"
@@ -9094,6 +9209,13 @@ which@^1.2.9:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/which/-/which-1.3.1.tgz#a45043d54f5805316da8d62f9f50918d3da70b0a"
   integrity sha512-HxJdYWq1MTIQbJ3nw0cqssHoTNU267KlrDuGZ1WYlxDStUtKUhOaJmh112/TZmHxxUfuJqPXSOm7tDyas0OSIQ==
+  dependencies:
+    isexe "^2.0.0"
+
+which@^2.0.1:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/which/-/which-2.0.2.tgz#7c6a8dd0a636a0327e10b59c9286eee93f3f51b1"
+  integrity sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==
   dependencies:
     isexe "^2.0.0"
 
